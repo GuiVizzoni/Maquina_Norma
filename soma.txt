@@ -1,0 +1,3 @@
+1: se zero B entao va_para 0 senao va_para 2
+2: faca sub B va_para 3
+3: faca add A va_para 1

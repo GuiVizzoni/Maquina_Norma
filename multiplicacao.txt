@@ -1,0 +1,29 @@
+1: faca add A va_para 2
+2: faca add A va_para 3
+3: faca add B va_para 4
+4: faca add B va_para 5
+5: faca add B va_para 6
+
+6: se zero A entao va_para 9 senao va_para 7
+7: faca dec A va_para 8
+8: faca add C va_para 6
+
+9: se zero B entao va_para 12 senao va_para 10
+10: faca dec B va_para 11
+11: faca add D va_para 9
+
+12: se zero C entao va_para 21 senao va_para 13
+13: faca dec C va_para 14               
+
+14: se zero D entao va_para 18 senao va_para 15
+15: faca dec D va_para 16
+16: faca add A va_para 17
+17: faca add B va_para 14 
+
+18: se zero B entao va_para 12 senao va_para 19
+19: faca add D va_para 20
+20: faca dec B va_para 18
+
+21: se zero D entao va_para 0 senao va_para 22
+22: faca add B va_para 23
+23: faca dec D va_para 21
